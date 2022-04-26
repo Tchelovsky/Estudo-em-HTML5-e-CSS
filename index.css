@@ -38,13 +38,14 @@ header {
 	background: #4F4F4F; /*Muda a cor do fundo da pagina ou conteiner*/
 	display: flex; /*elementos responsivos dentro de um contêiner sejam organizados automaticamente*/
 	flex-wrap: wrap; /* flex-wrap define se os itens flexíveis são forçados a ficarem na mesma linha ou se podem ser quebradas em varias linha*/
-	justify-content: space-between; /* Separa os itens um do lado do outro*/
+	justify-content: center; /* Separa os itens um do lado do outro*/
 	padding: 10px; /* Espaço entra a borda e o top da página*/
 	align-items: center; /*Alinha os itens entre eles, deixa na mesma altura*/
 	margin-top: 10px; /* Margin do topo da pagina*/
 	margin-left: 10px; /*Margin do lado esquerdo da página*/
 	margin-right: 10px; /*Margin do lado direito da página*/
 	border: black solid 5px; /*coloca uma borda solida*/
+
 
 }
 
@@ -110,4 +111,11 @@ footer {
 	text-align: center; /* Alinha o texto ao centro do conteiner*/
 	margin: 10px;  /*Alinha o conteiner*/
 	background: #4F4F4F; /*Muda a cor do fundo da pagina ou conteiner*/
+}
+
+.site {
+	font-family: sans-serif;
+	text-align: center;
+		margin-top: 20px;
+		background-color: black;
 }
